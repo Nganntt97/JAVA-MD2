@@ -35,7 +35,7 @@ public class baitap {
         do {
             System.out.println("hãy nhập họ tên");
              fullName=scanner.nextLine();
-            Pattern patternfullName=Pattern.compile("[a-z A-Z]+\\s?[a-z A-Z]*");
+            Pattern patternfullName=Pattern.compile("[a-z A-Z]+\\s?[a-z A-Z]{10,}");
             Matcher check=patternfullName.matcher(fullName);
             if (check.matches()){
                 System.out.println("ok");
@@ -59,7 +59,7 @@ public class baitap {
         do {
             System.out.println("Hãy nhâp ngày tháng năm sinh");
              birthDate=scanner.nextLine();
-            Pattern patternbirthDate=Pattern.compile("\\d{2}\\d{2}\\d{4}");
+            Pattern patternbirthDate=Pattern.compile("\\d{2}/\\d{2}/\\d{4}");
             Matcher check= patternbirthDate.matcher(birthDate);
             if (check.matches()) {
                 break;
@@ -69,8 +69,8 @@ public class baitap {
         }while(true);
 //        in thong tin
         System.out.println("Thông tin sinh viên");
-        System.out.println("ma so sinh vien "+id);
-        System.out.println("Ho ten "+fullName);
+        System.out.println("Mã số sinh viên "+id);
+        System.out.println("Họ tên "+fullName);
         System.out.println("số điện thoại "+phone);
         System.out.println("Ngày tháng năm sinh "+birthDate);
 
