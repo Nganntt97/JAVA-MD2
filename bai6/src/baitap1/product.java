@@ -1,4 +1,7 @@
+package baitap1;
+
 import java.util.Scanner;
+
 
 
 //    Tạo Lớp Product chứa thông tin mã sản phẩm, tên sản phẩm, giá bán , giá nhập
@@ -24,10 +27,10 @@ class Product{
     private double giaBan;
     private double giaNhap;
 
-//    contructor ko tham so
+    //    contructor ko tham so
     public Product(){
     }
-//contrusctor cos tham so
+    //contrusctor cos tham so
     public Product(String maSanpham,String productName,double giaBan,double giaNhap){
         this.maSanpham=maSanpham;
         this.productName=productName;
@@ -37,6 +40,7 @@ class Product{
     }
 
     public String getMaSanpham() {
+
         return maSanpham;
     }
 
@@ -68,7 +72,7 @@ class Product{
         this.giaNhap = giaNhap;
     }
 
-//    nhap thong tin
+    //    nhap thong tin
     public void productInfo(){
         Scanner scanner=new Scanner(System.in);
         System.out.println("Nhập mã sản phẩm");
@@ -90,36 +94,6 @@ class Product{
     public double laiXuat(){
         return this.giaBan-this.giaNhap;
     }
-    public  class Check{
-        public static void main(String[] args) {
-            Scanner scanner=new Scanner(System.in);
-            Product product=new Product();
 
-//            hien thi menu
-            System.out.println("*****MENU*****");
-            System.out.println("1.Nhập vào thông tin sản phâm");
-            System.out.println("2.Hiển thị thông tin");
-            System.out.println("3.Hiển thị lãi xuất");
-            System.out.println("4.Thoát");
-            System.out.println("Hãy chọn chức năng ");
-            int choice= scanner.nextInt();
-            switch (choice){
-                case 1:
-                    product.productInfo();
-                    break;
-                case 2:
-                    product.showProduct();
-                    break;
-                case 3:
-                    System.out.println("Lai xuat san pham la "+product.laiXuat());
-                    break;
-                case 4:
-                    System.out.println("thoat chuong trinh");
-                    break;
-                default:
-                    System.out.println("vui long chon lai");
-            }
-        }
-
-    }
 }
+
