@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/Desktop.iml" filepath="$PROJECT_DIR$/Desktop.iml" />
       <module fileurl="file://$PROJECT_DIR$/bai5/bai5.iml" filepath="$PROJECT_DIR$/bai5/bai5.iml" />
       <module fileurl="file://$PROJECT_DIR$/bai6/bai6.iml" filepath="$PROJECT_DIR$/bai6/bai6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bai7-/src/bai7/bai7.iml" filepath="$PROJECT_DIR$/bai7-/src/bai7/bai7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bai7-/bai7-.iml" filepath="$PROJECT_DIR$/bai7-/bai7-.iml" />
       <module fileurl="file://$PROJECT_DIR$/bai1/baitap/baitap.iml" filepath="$PROJECT_DIR$/bai1/baitap/baitap.iml" />
       <module fileurl="file://$PROJECT_DIR$/bai1/lythuyet/lythuyet.iml" filepath="$PROJECT_DIR$/bai1/lythuyet/lythuyet.iml" />
     </modules>
