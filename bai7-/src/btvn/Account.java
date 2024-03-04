@@ -26,6 +26,7 @@ public class Account {
     }
 
 
+
     public Account(String accountNo, String customerName, double balance) {
         this.accountNo = accountNo;
         this.customerName = customerName;
@@ -56,6 +57,8 @@ public class Account {
         this.balance = balance;
     }
 
+//    ghi de cua lop object the hien tinh da hinh cua doi tuong
+//    ghi lai phiuong thuc cua lop cha.Phai cung ten,so luong tham so,kieu so luong
     @Override
     public String toString() {
         return "Account [accountNo= "+accountNo+", customerName= "+customerName+", balance= "+balance+"]";

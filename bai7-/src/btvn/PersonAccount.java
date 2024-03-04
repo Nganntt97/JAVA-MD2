@@ -20,7 +20,8 @@ public class PersonAccount extends Account{
     }
 
     public void withDraw(double amount) {
-       setBalance(getBalance()-amount-fee);
+
+        setBalance(getBalance()-amount-fee);
     }
 
     public void deposit(double amount) {
